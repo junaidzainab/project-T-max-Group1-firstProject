@@ -23,6 +23,12 @@ body{
     background-color: #1d1d77;
 }
 
+.rolo img{
+    float: left;
+    margin-top: 7px;
+    margin-left: -50px;
+    width: 50px;
+}
 
 /* Nav Bar */
 .main-bar{
@@ -45,12 +51,10 @@ body{
     vertical-align: middle;
     padding: 0;
     color: #20ef76;
-    margin-top: 0;
+    margin-top: 25px;
     margin-bottom: 0;
-    margin-left: 0;
+    margin-left: 10px;
     margin-right: 0;
-    width: 180px;
-    height: 68px;
     position: relative;
     z-index: 9;
     transition: all 0.5s;
@@ -59,36 +63,12 @@ body{
     -o-transition: all 0.5s;
 }
 
-.logo-header:before{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    height: 100%;
-    z-index: -1;
-    right: -50px;
-    width: 80%;
-    transform: skew(30deg);
-    background-color: #5ca904;
-    
-
-}
-
-.logo-header:before{
-    content: "";
-    position: absolute;
-    bottom: 0;
-    height: 100%;
-    z-index: -1;
-    right: 10%;
-    width: 2000px;
-    background-color: #5ca904;
-}
 
 .logo-header a{
-    color: #22272b;
-    font-size: 33px;
+    color: #1d1d77;
+    font-size: 19px;
     font-weight: 600;
-    line-height: 70px;
+    line-height: 7px;
     text-decoration: none;
 }
 
@@ -131,12 +111,18 @@ nav li:hover a{
 
 @media(max-width: 1250px){
     .main-bar{
-        padding: 0 2%;
+        padding: 0 6%;
     }
     nav li a{
         padding: 15px 20px;
     }
 }
+
+
+.logo-header img{
+    /* margin-top: 50px; */
+}
+
 
 .checkbtn{
     float: right;
@@ -152,7 +138,8 @@ nav li:hover a{
 
 @media(max-width: 992px){
     .main-bar{
-        padding: 0 10%;
+        /* padding: 0 10%; */
+        padding-left: 20%;
     }
 
     .checkbtn{
@@ -350,6 +337,11 @@ footer{
     background-color: #1d1d77;
 }
 
+footer img{
+    width: 270px;
+
+}
+
 .footer > *{
     flex: 1 100%;
 }
@@ -357,10 +349,6 @@ footer{
 .footer-left{
     margin-right: 1.25em;
     margin-bottom: 2em;
-}
-
-.footer-left img{
-    width: 50%;
 }
 
 .footer-right h2{
@@ -419,7 +407,7 @@ footer{
 }
 
 .socials a i{
-    color: #5ca904;
+    color: #fff;
     padding: 10px 0px;
     font-size: 20px;
 }
