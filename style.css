@@ -119,9 +119,6 @@ nav li:hover a{
 }
 
 
-.logo-header img{
-    /* margin-top: 50px; */
-}
 
 
 .checkbtn{
@@ -432,4 +429,25 @@ footer img{
     .footer{
         padding: 15px;
     }
+}
+
+.container-xx img{
+    width: 50px;
+}
+
+.container-xx a{
+    color: #fff;
+    font-weight: 500;
+}
+
+.container-xx{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.footer-link{
+    margin-top: 13px;
+    padding-left: 9px;
+    font-size: 19px;
 }
