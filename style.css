@@ -135,6 +135,9 @@ nav li:hover a{
     background-size: cover;
     height: 100vh;
 }
+.z-index{
+    z-index: 0;
+}
 
 .font-60{
     font-size: 45px;
@@ -213,8 +216,9 @@ nav li:hover a{
 
 .btn-div{
     display: flex;
-    justify-content: space-between;
-    margin: 20px 100px 0 100px;
+    gap: 30px;
+    /* justify-content: space-between; */
+    margin: 20px 170px;
     font-size: 18px;
     /* font-weight: 500; */
     /* width:20%; */
