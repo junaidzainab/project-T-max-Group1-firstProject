@@ -423,6 +423,9 @@ footer img{
     .footer-right{
         flex: 2 0px;
     }
+    .footer{
+
+    }
 }
 
 @media (max-width: 600px){
@@ -433,11 +436,13 @@ footer img{
 
 .container-xx img{
     width: 50px;
+    height: 60px;
 }
 
 .container-xx a{
     color: #fff;
     font-weight: 500;
+
 }
 
 .container-xx{
@@ -451,3 +456,4 @@ footer img{
     padding-left: 9px;
     font-size: 19px;
 }
+
