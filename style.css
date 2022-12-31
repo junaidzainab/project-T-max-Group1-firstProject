@@ -1,8 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,400;1,500;1,700&display=swap");
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
 
@@ -163,7 +164,7 @@ nav li:hover a{
 }
 
 .p-50{
-    padding: 50px;
+    padding: 50px 50px 0 50px;
 }
 
 .p-10{
@@ -257,8 +258,6 @@ nav li:hover a{
     border-radius: 7px;
     min-width: 120px;
 }
-
-
 
 
 
