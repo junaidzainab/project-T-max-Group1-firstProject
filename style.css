@@ -44,6 +44,17 @@
 
 }
 
+/* .main-bar-zindex{
+    background-color: #fff;
+    display: flow-root ;
+    padding-left: 10% ;
+    width: 100%;
+    position: fixed;
+    /* z-index: 0; */
+    /* box-shadow: 5px 5px 15px  rgba(0.4,0,0,0.1); */
+
+/* }  */
+
 #check{
     display: none;
 }
@@ -135,8 +146,12 @@ nav li:hover a{
     background-size: cover;
     height: 100vh;
 }
+/* .z-index-5{
+    z-index: 10;
+} */
+
 .z-index{
-    z-index: 0;
+    z-index:0;
 }
 
 .font-60{
@@ -150,6 +165,10 @@ nav li:hover a{
 
 .w-40{
     width:40%;
+}
+
+.w-50{
+    width: 50%;
 }
 
 .p-50{
@@ -169,6 +188,10 @@ nav li:hover a{
     left: 10%;
     top: 20%;
     transform: translate(50%, 50%);
+}
+
+.mt-50{
+    margin-top: 100px;
 }
 
 .mtb-20{
@@ -483,8 +506,12 @@ footer{
     background-color: #1d1d77;
 }
 
-footer img{
-    width: 270px;
+.footer-img{
+    width:10%
+}
+
+.footer-img img{
+    width: 100%;
 
 }
 
@@ -579,7 +606,31 @@ footer img{
         padding: 15px;
     }
 }
-.navbar{background-color: #5d8cd8;}
+
+/* about us */
+
+.ima{
+    width:40%;
+}
+.ima img{
+    width: 100%;
+}
+
+.ima img:hover{
+    box-shadow: 10px 10px 15px  rgba(0.4,0,0,0.1);
+    transition: all 0.5s;
+    transform:scale(1.1)
+}
+
+.flex{
+    display:flex;
+    gap:5%;
+}
+
+
+/* .navbar{
+    background-color: #5d8cd8;
+}
 .heading{text-align: center;
 padding-top: 2%;}
 .writing{text-align: center;
@@ -595,7 +646,7 @@ height: 300px;}
 
 .card{
 width: 500px;
-height: 400px;}
+height: 400px;}*/
 
 .container-xx img{
     width: 50px;
