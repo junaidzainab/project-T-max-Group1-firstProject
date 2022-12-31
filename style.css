@@ -5,10 +5,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* body{
-    background-color: rgb(255, 255, 255);
-    font-family: 'Poppins', sans-serif;
-} */
 
 ::-webkit-scrollbar{
     width: 12px;
@@ -18,7 +14,6 @@
     background-color: #5ca904;
     border-radius: 6px;
     width: 20px;
-    /* background: linear-gradient(transparent,#5ca904); */
 }
 
 ::-webkit-scrollbar-track{
@@ -64,7 +59,6 @@
     float: left;
     vertical-align: middle;
     padding: 0;
-    /* color: #20ef76; */
     margin-top: 25px;
     margin-bottom: 0;
     margin-left: 10px;
@@ -86,6 +80,10 @@
     text-decoration: none;
 }
 
+.logo-header a:hover{
+    color: #1d1d77;
+}
+
 nav ul{
     float: right;
     padding-left: 10%;
@@ -97,11 +95,6 @@ nav ul li{
     border-radius: 14px;
 }
 
-/* nav li.active a{
-    color: #020101;
-    background-color: #fddb0d;
-    border-radius: 14px;
-} */
 
 nav li a{
     padding: 15px 25px;
@@ -118,9 +111,7 @@ nav li a{
 
 nav li:hover a{
     color: #5ca904;
-    /* background-color: #5ca904; */
     border-radius: 14px;
-
 }
 
 .solar1{
@@ -240,12 +231,8 @@ nav li:hover a{
 .btn-div{
     display: flex;
     gap: 30px;
-    /* justify-content: space-between; */
     margin: 20px 170px;
     font-size: 18px;
-    /* font-weight: 500; */
-    /* width:20%; */
-    /* width:50%; */
     align-items: center;
 }
 
@@ -282,9 +269,12 @@ nav li:hover a{
     nav li a{
         padding: 15px 20px;
     }
+    
 }
 
-
+.mag{
+    z-index: 0;
+}
 
 
 .checkbtn{
@@ -340,7 +330,7 @@ nav li:hover a{
     }
 }
 
-/* .checkbtn span{
+.checkbtn span{
     background-color: #1d1d77;
     display: block;
     position: absolute;
@@ -350,8 +340,41 @@ nav li:hover a{
     opacity: 1;
     left: 0;
     transform: rotate(0);
-    transition: 0.25s; ease-in-out;
-} */
+}
+
+
+
+
+/* Our Team Responsiveness */
+
+.team-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 1100px){
+    .team-container div{
+        width: 80%;
+        margin-left: 12%;
+    }
+}
+
+@media (max-width: 768px){
+    .team-container div{
+        width: 90%;
+        margin-left: 7%;
+    }
+}
+
+@media (max-width: 500px){
+    .team-container div{
+        width: 100%;
+        margin-left: 0;
+    }
+    
+}
+
+
 
 /* Hamburger Toggle */
 
@@ -380,27 +403,14 @@ nav li:hover a{
 }
 
 .blog{
-    padding: 0 50px 50px 50px;
+    /* padding: 0 50px 50px 50px; */
     /* display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    flex-direction: column;
-    padding: 40px; */
+    flex-direction: column; */
+    padding: 40px;
 
 } 
-
-
-
-/* .blogs-heading{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-} */
-
-/* .blogs-heading span{
-    color: #1d1d77;
-} */
 
 .sub-headings{
     color: rgb(177, 175, 175);
@@ -408,21 +418,15 @@ nav li:hover a{
     font-family:Arial, Helvetica, sans-serif;
 }
 
-.blogs-container{
+.blogs-contain{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 50px; */
-    /* margin: 20px 0px; */
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .blog-box{
-    width: 40%;
-    /* background-color: #fff; */
-    /* border: 1px solid #ececec; */
-    /* margin: 7px; */
-    padding: 10px;
+    width: 30%;
     border-radius: 10px;
     
 }
@@ -433,15 +437,8 @@ nav li:hover a{
     transform: scale(0.9);
 }
 
-/* .blog-img{ */
-    /* width: 0%; */
-    /* height: auto; */
-
-/* } */
-
 .blog-img img{
     width: 100%;
-    /* height: 100%; */
     object-fit: cover;
     object-position: center;
     border-radius: 10px;
@@ -473,19 +470,21 @@ nav li:hover a{
 @media(max-width:1250px){
     .blog-box{
         width: 70%;
+        margin-left: 17%;
     }
 }
 
 @media(max-width:1100px){
     .blog-box{
         width: 70%;
+        margin-left: 17%;
     }
 }
 
 @media(max-width:550px){
     .blog-box{
         margin: 20px 10px;
-        width: 100%;
+        width: 100%;   
     }
     #blog{
         padding: 20px;
@@ -538,6 +537,14 @@ footer{
     line-height: 2em;
 }
 
+.footer a:hover{
+    color: #5ca904;
+}
+.footer a i:hover{
+    color: #5ca904;
+    transition: all 0.5s;
+}
+
 .footer a{
     text-decoration: none;
 }
@@ -569,6 +576,10 @@ footer{
 .footer-left p{
     padding-right: 20%;
     color: #999;
+}
+
+.footer-link a:hover {
+    color: #fff;
 }
 
 .socials a{
@@ -627,34 +638,15 @@ footer{
     gap:5%;
 }
 
-
-/* .navbar{
-    background-color: #5d8cd8;
-}
-.heading{text-align: center;
-padding-top: 2%;}
-.writing{text-align: center;
-padding-top: 15px;}
-
-.background{background-color: rgb(219, 215, 215);
-    background-size: 100%;
-    background-size:contain;
-    background-repeat: no-repeat;
-}
-.ima{width: 100%;
-height: 300px;}
-
-.card{
-width: 500px;
-height: 400px;}*/
-
 .container-xx img{
     width: 50px;
+    height: 60px;
 }
 
 .container-xx a{
     color: #fff;
     font-weight: 500;
+
 }
 
 .container-xx{
