@@ -205,7 +205,8 @@
 .centered-btn-wrapper > .btn:hover {
   border: 1px solid #1d1d77;
   transition: all 1s;
-  transform: scaleX(-1) translateY(1px);
+  /* transform: scaleX(-1) translateY(1px); */
+  transform: scale(0.8);
 }
 
 .form input:focus + label,
