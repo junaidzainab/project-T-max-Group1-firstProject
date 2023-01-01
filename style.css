@@ -661,17 +661,18 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-  gap: 5%;
+  gap: 20px;
 }
 
 .price-card {
   box-shadow: 5px 5px 15px rgba(0.4, 0, 0, 0.1);
   width: 30%;
   border-radius: 15px;
+  margin-top: 20px;
 }
 
 .price-card:hover {
-  box-shadow: 5px 5px 15px rgba(0.4, 0, 0, 0.1);
+  box-shadow: 5px 15px 15px rgba(0.4, 0, 0, 0.5);
   transition: all 0.5s;
   transform: scale(0.9);
 }
@@ -686,4 +687,10 @@ footer {
 .price-btn:hover{
   transition: all 0.5s;
   transform: scale(1.1);
+}
+  
+@media (max-width: 450px) {
+  .price-card {
+    width: 300px;
+  }
 }
