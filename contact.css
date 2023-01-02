@@ -149,13 +149,16 @@
 .form textarea {
   margin-top: 20px;
   width: 100%;
-  height: 120px;
+  height: 150px;
   border: none;
   border-bottom: 1px solid #11122b;
   font-family: inherit;
   color: color;
   padding: 0.8rem 0px;
   transition: all 0.3s;
+}
+.mssg {
+  margin-top: 25px;
 }
 .form textarea:focus {
   outline: none;
@@ -199,7 +202,7 @@
   height: 40px;
   border: none;
   background-color: #ffffff;
-  margin-top: 25px;
+  margin-top: 35px;
 }
 .centered-btn-wrapper:hover {
   border: 1px solid #1d1d77;

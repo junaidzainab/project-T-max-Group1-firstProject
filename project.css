@@ -6,21 +6,20 @@
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 12px;
-
 }
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
   background-color: #5ca904;
   border-radius: 6px;
   width: 20px;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background-color: #1d1d77;
 }
 
-.project-pad{
+.project-pad {
   padding-top: 70px;
 }
 
@@ -73,22 +72,28 @@
   row-gap: 30px;
   column-gap: 10px;
 }
-label {
+.project-card-button > label {
   color: #ffffff;
   background-color: #1d1d77;
   padding: 8px 10px;
   border-radius: 7px;
 }
-label:hover {
+.project-card-button > label:hover {
   background-color: #ffffff;
   color: #1d1d77;
   letter-spacing: 2px;
   border: 1px solid #1d1d77;
-  transform: scale(1);
+  /* transform: scale(1); */
   transition: all 1s;
 }
+.project-card-button > input:checked + label {
+  background-color: #ffffff;
+  border-bottom: 2px solid #1d1d77;
+  border-top: 2px solid #1d1d77;
+  color: #1d1d77;
+}
 input[type="radio"] {
-  display: none;
+  opacity: 0;
 }
 /* cardS  STYLE */
 .project-cards-container {

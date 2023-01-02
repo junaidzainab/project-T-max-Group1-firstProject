@@ -147,8 +147,8 @@ nav li:hover a {
   padding: 50px;
 }
 
-.pt-100{
-  padding: 120px 200px 0 0;
+.pt-100 {
+  padding: 120px 0 0 0;
 }
 
 .p-50 {
@@ -658,10 +658,10 @@ footer {
 
 .card-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  gap: 20px;
+  gap: 25px;
 }
 
 .price-card {
@@ -684,17 +684,14 @@ footer {
   border: none;
 }
 
-.price-btn:hover{
+.price-btn:hover {
   transition: all 0.5s;
   transform: scale(1.1);
 }
-  
+
 @media (max-width: 800px) {
   .logo-header a {
     display: none;
-  }
-  .card-container {
-    flex-direction: row;
   }
   .price-card {
     width: 400px;
