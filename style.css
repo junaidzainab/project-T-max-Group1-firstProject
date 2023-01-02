@@ -704,6 +704,18 @@ footer {
   padding: 10px;
   border: none;
 }
+@media (max-width: 800px) {
+  .logo-header a {
+    display: none;
+  }
+  .card-container {
+    flex-direction: row;
+  }
+  .price-card {
+    width: 400px;
+  }
+}
+
 @media (max-width: 450px) {
   .price-card {
     width: 300px;
